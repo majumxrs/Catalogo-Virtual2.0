@@ -93,13 +93,13 @@ function Login() {
                     control={ <Checkbox value={lembrar} name="lembrar" onChange={(e) => setLembrar( !lembrar ) } />}
                     label="Lembrar-me"
                 />
-                <Button type="submit" variant="contained" fullWidth sx={ { mt: 2, mb: 2 }} size="large">Login</Button>
+                <Button type="submit" variant="contained" fullWidth sx={ { mt: 2, mb: 2 }} size="large">Entrar</Button>
                 <Grid container>
                     <Grid item xs>
                         Esqueci a senha
                     </Grid>
                     <Grid item>
-                        Cadastrar
+                        <a href='http://localhost:3000/cadastro'>Cadastrar</a>
                     </Grid>
                 </Grid>
             </Box>
